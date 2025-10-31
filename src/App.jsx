@@ -1,16 +1,23 @@
- function App() {
-  return (
-    <div className="app">
-      <h1>Chinky</h1>
-      <p>I'm learning React and excited to build amazing websites!</p>
-      <h2>My Hobbies:</h2>
+export const Navbar = () => {
+  return(
+    <nav className="navbar">
       <ul>
-        <li>Coding</li>
-        <li>Reading</li>
-        <li>Travelling</li>
+        <li className="nav-item">
+          <a href="#">Dashboard</a>
+        </li>
+        <li className="nav-item">
+          <a href="#">Widgets</a>
+        </li>
+      <li className="nav-item">
+       <button aria-expanded="false">Apps</button>
+       <ul class="sub-menu" aria-labek="Apps">
+        <li><a href="#">Calendar</a></li>
+        <li><a href="#">Chat</a></li>
+        <li><a href="#">Email</a></li>
+       </ul>
+      </li>
+
       </ul>
-      <button>Learn More</button>
-    </div>
-  );
+    </nav>
+  )
 }
-export default App;
