@@ -8,16 +8,18 @@ export const Navbar = () => {
         <li className="nav-item">
           <a href="#">Widgets</a>
         </li>
-      <li className="nav-item">
-       <button aria-expanded="false">Apps</button>
-       <ul class="sub-menu" aria-labek="Apps">
-        <li><a href="#">Calendar</a></li>
-        <li><a href="#">Chat</a></li>
-        <li><a href="#">Email</a></li>
-       </ul>
-      </li>
-
+        <li className="nav-item">
+          <button aria-expanded="false">Apps</button>
+          <ul className="sub-menu" aria-label="Apps">
+            <li><a href="#">Calendar</a></li>
+            <li><a href="#">Chat</a></li>
+            <li><a href="#">Email</a></li>
+          </ul>
+        </li>
       </ul>
     </nav>
   )
 }
+
+
+export default App
