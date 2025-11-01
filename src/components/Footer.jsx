@@ -1,11 +1,10 @@
-import React from "react";
+import  React from 'react';
 
-function Footer() {
-  return (
-    <footer>
-      <p>© 2025 My Website. All rights reserved.</p>
-    </footer>
-  );
+function Footer(){
+    return(
+<footer>Copyright</footer>
+    );
+
+    
 }
-
 export default Footer;
